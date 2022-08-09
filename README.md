@@ -1,6 +1,10 @@
 # Discord-SM-MilesMorales
 
-<img src="/items/icon.png" height="100" title="icon" alt="">
+<img src="/items/icon.png" height="100" title="icon" alt="icon">
+
+### Screenshots:
+<img src="/items/screenshots/screenshot-1.png" title="Screenshot 1" alt="">
+<img src="/items/screenshots/screenshot-2.png" title="Screenshot 2" alt="">
 
 ### How to install:
 * install <a href="https://betterdiscord.app">BetterDiscord</a>.
