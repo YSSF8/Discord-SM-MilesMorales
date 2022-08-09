@@ -1,4 +1,4 @@
-# Discord-SM-MilesMorales
+# Spider-Man: Miles Morales
 
 <img src="/items/icon.png" height="100" title="icon" alt="icon">
 
