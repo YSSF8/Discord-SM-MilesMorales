@@ -1,0 +1,43 @@
+/**
+ * @name Spider-man: Miles Morales
+ * @author YSSF (𝒟𝒜𝑅𝒦-𝒮𝐼𝒟𝐸 ✘!#4318)
+ * @authorId 926605635213226044
+ * @version 1.0
+ * @description Discord now is looking with Spider-man theme
+ * @source https://github.com/YSSF8/Discord-SM-MilesMorales
+*/
+
+@import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
+
+:root {
+	--background: url('https://github.com/YSSF8/Discord-SM-MilesMorales/blob/main/items/bg.png?raw=true');
+	--activetext-colour: white;
+
+    --primary1-colour: red;
+    --primary2-colour: rgba(255,0,0,0.5);
+    --primary3-colour: rgba(100,0,0,0.6);
+
+    --secondary1-colour: rgba(50,50,50,0.3);
+    --secondary2-colour: rgba(100,100,100,0.5);
+    --secondary3-colour: rgba(0,0,0,0.5);
+
+    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+#app-mount .typeWindows-2-g3UY:after {
+	content: 'Spider-man: Miles Morales (by: 𝒟𝒜𝑅𝒦-𝒮𝐼𝒟𝐸 ✘!)';
+}
+
+.homeIcon-r0w4ny path {
+	fill: transparent;
+}
+
+.homeIcon-r0w4ny {
+	background: url('https://github.com/YSSF8/Discord-SM-MilesMorales/blob/main/items/icon.png?raw=true') center/cover no-repeat;
+	min-width: 50px;
+	min-height: 50px;
+}
