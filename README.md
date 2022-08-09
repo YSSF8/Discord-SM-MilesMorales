@@ -1,6 +1,6 @@
 # Spider-Man: Miles Morales
 
-<img src="/items/icon.png" height="100" title="icon" alt="icon">
+<p align="center"><img src="/items/icon.png" height="100" title="icon" alt="icon"></p>
 
 ### Screenshots:
 <img src="/items/screenshots/screenshot-1.png" title="Screenshot 1" alt="">
