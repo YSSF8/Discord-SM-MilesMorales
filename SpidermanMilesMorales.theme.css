@@ -1,8 +1,8 @@
 /**
  * @name Spider-Man: Miles Morales
- * @author YSSF (𝒟𝒜𝑅𝒦-𝒮𝐼𝒟𝐸 ✘!#4318)
+ * @author YSSF (siifu)
  * @authorId 926605635213226044
- * @version 1.1
+ * @version 1.2
  * @description Discord now is looking with Spider-man theme
  * @source https://github.com/YSSF8/Discord-SM-MilesMorales
 */
@@ -13,7 +13,7 @@
 	--background: url('https://github.com/YSSF8/Discord-SM-MilesMorales/blob/main/items/bg.png?raw=true');
 	--activetext-colour: white;
 
-    --primary1-colour: red;
+    --primary1-colour: #f00;
     --primary2-colour: rgba(255,0,0,0.5);
     --primary3-colour: rgba(100,0,0,0.6);
 
@@ -26,10 +26,54 @@
     --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	
+	--most-used-num: 8px;
 }
 
 #app-mount .typeWindows-2-g3UY:after {
-	content: 'Spider-Man: Miles Morales (by: 𝒟𝒜𝑅𝒦-𝒮𝐼𝒟𝐸 ✘!)';
+	content: 'Spider-Man: Miles Morales (by siifu)';
+}
+
+.theme-dark .keyboardShortcutsModal-2CRmCm,
+.theme-dark.authBox-1HR6Ha {
+	background-color: transparent;
+}
+
+.messagesPopoutWrap-3zryHW,
+.popout-15UxD6,
+.theme-dark .keyboardShortcutsModal-2CRmCm,
+.wrapper-29fOzY,
+.contentWrapper-3vHNP2,
+#app-mount .accountProfileCard-lbN7n-,
+.theme-dark.authBox-1HR6Ha {
+	backdrop-filter: blur(15px) !important;
+}
+
+.radioBar-1XgZqD.radioPositionLeft-27wZ8M,
+.popout-15UxD6,
+.theme-dark .keyboardShortcutsModal-2CRmCm,
+.wrapper-29fOzY,
+.contentWrapper-3vHNP2,
+#app-mount .root-1CAIjD,
+#app-mount .accountProfileCard-lbN7n-,
+.messagesPopoutWrap-3zryHW,
+#app-mount .inputDefault-Ciwd-S {
+	backdrop-filter: blur(7px);
+	outline: 1px solid #555;
+	border-radius: var(--most-used-num);
+}
+
+.wrapper-29fOzY {
+	border: 1px solid #555;
+}
+
+.popout-15UxD6 {
+	margin-top: 5px;
+}
+
+#app-mount .contentRegion-3HkfJJ .item-2GWPIy:not(.tabBarItem-3nPo4Z) {
+	padding: var(--most-used-num);
+	border-radius: 5px 5px 0 0;
 }
 
 .homeIcon-r0w4ny path {
